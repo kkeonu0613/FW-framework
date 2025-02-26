@@ -1,0 +1,24 @@
+.PageTitle {
+  font-size: 25px;
+  height: 70px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.page-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-title h3,
+.page-title h6,
+.page-title span {
+  margin: 0;
+  padding: 0;
+  display: inline-flex; /* 각 요소를 인라인 플렉스로 배치 */
+}
+
+.page-title span {
+  margin: 0 5px; /* 간격 추가 */
+}

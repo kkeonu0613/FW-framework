@@ -1,0 +1,8 @@
+.Nav {
+  background-color: #fff;
+  font-size: 25px;
+  height: 60px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}

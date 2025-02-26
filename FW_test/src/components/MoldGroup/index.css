@@ -1,0 +1,10 @@
+.MoldGroup {
+  background-color: #f1f5f9;
+  flex-direction: row;
+  height: auto;
+  width: 1300px;
+}
+
+.test {
+  display: flex;
+}

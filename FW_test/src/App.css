@@ -1,0 +1,31 @@
+#root {
+  background-color: green;
+  flex: 1;
+}
+
+.App {
+  display: flex;
+  height: auto;
+}
+
+.SideBar {
+  background-color: #0f172a;
+  width: 300px;
+  height: auto;
+}
+
+.MainContainer {
+  background-color: #f1f5f9;
+  flex: 1;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+}
+
+.SideOption {
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+}

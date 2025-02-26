@@ -1,0 +1,19 @@
+/* CategoryTitle: 제목 스타일 */
+.CategoryTitle {
+  background-color: #fff;
+  width: 310px;
+  color: black;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center; /* 제목을 중앙 정렬 */
+  font-size: 18px;
+}
+
+/* SubTitle: 하위 제목 스타일 */
+.SubTitle {
+  margin: 0;
+  font-weight: bold;
+  text-align: center; /* 여기서도 중앙 정렬을 적용 */
+}

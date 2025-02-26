@@ -1,0 +1,9 @@
+.ItemContents {
+  background-color: #fff;
+  margin: 10px;
+  flex: 1;
+  color: black;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}

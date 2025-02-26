@@ -1,0 +1,10 @@
+.MoldCategory {
+  background-color: #fff;
+  width: 310px;
+  height: 1000px;
+  margin: 10px;
+  color: black;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}

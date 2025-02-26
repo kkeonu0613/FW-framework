@@ -1,0 +1,28 @@
+.ProcessBar {
+  background-color: #fff;
+  flex: 1;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  color: black;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+  justify-content: space-between;
+}
+/* 버튼 스타일 */
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 2px solid #13c690; /* 버튼의 테두리 색상 */
+  background-color: transparent; /* 배경을 투명하게 설정 */
+  color: black; /* 글자 색은 검정색 */
+}
+
+/* 버튼 호버 스타일 */
+button:hover {
+  background-color: #13c690; /* 호버 시 배경 색상 */
+  color: white; /* 호버 시 글자 색상 변경 */
+}

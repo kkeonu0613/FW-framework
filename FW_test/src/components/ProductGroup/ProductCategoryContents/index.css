@@ -1,0 +1,41 @@
+/* CategoryContents: 내용 영역 */
+.CategoryContents {
+  background-color: #fff;
+  min-height: 800px; /* 내용이 많을 때 크기 조정 */
+  color: black;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  overflow-y: auto; /* 내용이 넘칠 경우 스크롤 가능 */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 가로 중앙 정렬 */
+  justify-content: flex-start; /* 세로로 내용이 시작되도록 정렬 */
+  padding: 20px;
+  margin-top: 10px;
+}
+
+/* CategoryContents의 리스트 스타일 */
+.CategoryContents ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 리스트 아이템 중앙 정렬 */
+}
+
+/* 각 리스트 항목 스타일 */
+.CategoryContents li {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%; /* 내용이 너무 넓지 않도록 비율 설정 */
+  text-align: center; /* 항목을 중앙 정렬 */
+  margin: 5px 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+/* CategoryTitle과 CategoryContents 사이의 경계선 */
+.CategoryTitle + .CategoryContents {
+  border-top: 2px solid #e5e7eb; /* 상단 경계선 */
+}
